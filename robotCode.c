@@ -18,19 +18,19 @@
 
 |*                                - BEST Robotics off the grid code -                                 *|
 
-|*                                      ROBOTC on VEX 2.0 Cortex				  														*|
+|*                                      ROBOTC on VEX 2.0 Cortex                                      *|
 
-|*                                          By Turnt Ducky  				   																*|
+|*                                          By Turnt Ducky                                            *|
 
-|*												    																																				*|
+|*                                                                                                    *|
 
 |*    This program is the code for autonomous delivery, lowering and raising the wire arm, and        *|
 
 |*    dropping off thye conduit pipes. Also this code uses basic joystick controlls to controll       *|
 
-|*																						the robot																								*|
+|*                                            the robot.                                              *|
 
-|*												      																																			*|
+|*                                                                                                    *|
 
 |*                                        ROBOT CONFIGURATION                                         *|
 
@@ -44,7 +44,7 @@
 
 |*    Motor - Port 4   wireMotor    VEX 393 Motor                         Control wire motor          *|
 
-|*    Motor - Port 5   servoAuto    3-wire Servo											    Automated dropper           *|
+|*    Motor - Port 5   servoAuto    3-wire Servo                          Automated dropper           *|
 
 |*    Motor - Port 7   powerMotor   VEX 393 Motor                         Control power motor         *|
 
@@ -52,17 +52,17 @@
 
 |*    Digital - Port 1 centerIRout  Digital out                           Center sensor output        *|
 
-|*    Digital - Port 2 centerIR		  Digital in                            Center sensor input         *|
+|*    Digital - Port 2 centerIR     Digital in                            Center sensor input         *|
 
 |*    Digital - Port 3 leftIRout    Digital out                           Left sensor output          *|
 
-|*    Digital - Port 4 leftIR		    Digital in                            Left sensor input           *|
+|*    Digital - Port 4 leftIR       Digital in                            Left sensor input           *|
 
 |*    Digital - Port 5 rightIRout   Digital out                           Right sensor output         *|
 
-|*    Digital - Port 6 rightIR		  Digital in                            Right sensor input          *|
+|*    Digital - Port 6 rightIR      Digital in                            Right sensor input          *|
 
-|*    Digital - Port 7 LimitSwitch	Touch                                 Limit Switch for auto       *|
+|*    Digital - Port 7 LimitSwitch  Touch                                 Limit Switch for auto       *|
 
 \*----------------------------------------------------------------------------------------------------*/
 
