@@ -26,7 +26,7 @@
 
 |*    This program is the code for autonomous delivery, lowering and raising the wire arm, and        *|
 
-|*    dropping off thye conduit pipes. Also this code uses basic joystick controlls to controll       *|
+|*      dropping off the conduit pipes. Also this code uses basic joystick controls to control        *|
 
 |*                                            the robot.                                              *|
 
@@ -156,12 +156,12 @@ task main()
 			else if (getIrReading(rightIR) == 1) //If right IR is over black
 			{ //This lets the autonomous correct if robot is over to much to the right
 				startMotor(leftMotor, 63); //Left motor will stay at value 63
-				startMotor(rightMotor, 0); //Right motor will stop to allow correction
+				startMotor(rightMotor, -63); //Right motor will stop to allow correction
 			}
 			else if (getIrReading(leftIR) == 1) //If left IR is over black
 			{ //This lets the autonomous correct if robot is over to much to the left
-				startMotor(leftMotor, 0); //Left motor will stop to allow correction
-				startMotor(rightMotor, 63); //Right otor will stay at value 63
+				startMotor(leftMotor, -63); //Left motor will stop to allow correction
+				startMotor(rightMotor, 63); //Right motor will stay at value 63
 			}
 			if(SensorValue [LimitSwitch] == 1) //If limit switch is pressed in
 			{ //This is done for autonomous drop off
